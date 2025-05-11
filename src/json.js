@@ -1,4 +1,4 @@
-import{c as StB}from'/binary.switcher.js';
+import{c as StB}from'./binary.switcher.js';
 /*inspired by "Seek the depths, but never the end."
 offset array js by Christian Feilert*/
 function rot(num=1,bool=true){let a0=[...this],d0=0;for(d0;d0<num;d0++){bool?a0.unshift(a0.pop()):a0.push(a0.shift())}return a0
